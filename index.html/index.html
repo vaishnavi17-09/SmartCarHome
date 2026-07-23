@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Car Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <header>
+        <h1><i class="fa-solid fa-car"></i> Smart Car Dashboard</h1>
+        <div id="clock"></div>
+    </header>
+
+    <div class="cards">
+
+        <div class="card">
+            <i class="fa-solid fa-gauge-high"></i>
+            <h2>Speed</h2>
+            <p>78 km/h</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-gas-pump"></i>
+            <h2>Fuel</h2>
+            <p>68%</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-car-battery"></i>
+            <h2>Battery</h2>
+            <p>92%</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+            <h2>Temperature</h2>
+            <p>34°C</p>
+        </div>
+
+    </div>
+
+    <div class="navigation">
+        <h2><i class="fa-solid fa-location-dot"></i> Navigation</h2>
+        <h1>Pune → Solapur</h1>
+        <p>Estimated Time : 4 hr 20 min</p>
+    </div>
+
+    <div class="controls">
+        <h2><i class="fa-solid fa-house"></i> Smart Home Controls</h2>
+
+        <button>Lights OFF</button>
+        <button>Door Locked</button>
+        <button>CCTV OFF</button>
+        <button>AC OFF</button>
+        <button>Garage Closed</button>
+        <button>Fan OFF</button>
+
+    </div>
+
+    <div class="notification">
+        <h2><i class="fa-solid fa-bell"></i> Notifications</h2>
+
+        <ul>
+            <li>✔ System Ready</li>
+            <li>✔ Door Locked</li>
+            <li>✔ Garage Closed</li>
+            <li>⚠ Low Fuel</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
